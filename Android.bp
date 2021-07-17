@@ -2,7 +2,7 @@
 // Do not modify this file as changes will be overridden on upgrade.
 
 package {
-    default_applicable_licenses: ["external_rust_crates_vmm_vhost_license"],
+    default_applicable_licenses: ["external_rust_vmm_vhost_license"],
 }
 
 // Added automatically by a large-scale-change that took the approach of
@@ -25,7 +25,7 @@ package {
 // Please consider removing redundant or irrelevant files from 'license_text:'.
 // See: http://go/android-license-faq
 license {
-    name: "external_rust_crates_vmm_vhost_license",
+    name: "external_rust_vmm_vhost_license",
     visibility: [":__subpackages__"],
     license_kinds: [
         "SPDX-license-identifier-Apache-2.0",
@@ -48,6 +48,7 @@ rust_library {
         "default",
         "vhost-user",
         "vhost-user-master",
+        "vhost-user-slave",
     ],
     rustlibs: [
         "libbitflags",
