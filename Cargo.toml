@@ -21,8 +21,8 @@ vhost-user-slave = ["vhost-user"]
 [dependencies]
 bitflags = ">=1.0.1"
 libc = ">=0.2.39"
-sys_util = "*"
-tempfile = "*"
+sys_util = { path = "../../../external/crosvm/sys_util" }
+tempfile = { path = "../../../external/crosvm/tempfile" }
 vm-memory = { version = "0.2.0", optional = true }
 
 [dev-dependencies]
