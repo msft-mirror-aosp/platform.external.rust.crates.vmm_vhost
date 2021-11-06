@@ -9,11 +9,11 @@ third_party {
     type: GIT
     value: "https://chromium.googlesource.com/chromiumos/third_party/rust-vmm/vhost"
   }
-  version: "eaca5d36a2701c99b354ab5bc0954a78dfc9ff4f"
+  version: "d65bd280d9f4e192a884f1761e4b097c11aae6de"
   license_type: NOTICE
   last_upgrade_date {
     year: 2021
-    month: 5
-    day: 19
+    month: 9
+    day: 22
   }
 }
